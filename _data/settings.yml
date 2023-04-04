@@ -4,8 +4,11 @@ menu:
 - {name: 'Contact', url: '/contact'}
 
 social:
-- {icon: 'github', link: 'https://github.com/R-Chr'}
 - {icon: 'linkedin', link: 'https://linkedin.com/in/rasmus-christensen-231100186/'}
+- {icon: 'github', link: 'https://github.com/R-Chr'}
+- {icon: 'google', link: 'https://scholar.google.com/citations?user=UqBYL00AAAAJ&hl=en'}
+- {icon: 'orcid', link: 'https://orcid.org/0000-0003-2654-1545'}
+
 
 contacts:
 - {name: 'Rasmus Christensen', title: 'Ph.D. Fellow', department: 'Department of Chemistry and Bioscience', institution: 'Aalborg University', institution_address: 'Fredrik Bajers Vej 7H, 9220 Aalborg Øst', email: 'rasmusc@bio.aau.dk', office: '1.339', image: 'assets/img/contact.gif'}
