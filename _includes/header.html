@@ -1,5 +1,5 @@
 <header class="d-flex flex-column flex-md-row align-items-center pb-3 mb-5 border-bottom">
-  <div class="col-md-2">
+  <div>
     <a href="{{ site.github.url }}/" class="d-flex align-items-center text-decoration-none">
       <span class="fs-4 fw-bold">{{ site.title }}</span>
     </a>
@@ -7,18 +7,16 @@
       <span>{{ site.description }}</span>
     </a>
   </div>
-  <div class="col-md-6">
+  <div class="row">
     <div class="d-flex flex-row text-end social-media-icons">
       {% for item in site.data.settings.social %}
         <a href="{{ item.link }}" class="ms-3 fs-5"><i class="fab fa-{{ item.icon }}"></i></a>
       {% endfor %}
     </div>
   </div>
-  <div class="col-md-4"></div>
-    <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-      {% for item in site.data.settings.menu %}
-        <a class="me-3 py-2 text-decoration-none" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
-      {% endfor %}
-    </nav>
-  </div>
+  <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+    {% for item in site.data.settings.menu %}
+      <a class="me-3 py-2 text-decoration-none" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
+    {% endfor %}
+  </nav>
 </header>
