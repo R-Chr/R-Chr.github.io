@@ -16,10 +16,10 @@ courses:
 - {name: 'Stellar Structures', url: 'stellar-structures'}
 
 social:
-- {icon: 'github', link: 'https://github.com/LeNPaul'}
+- {icon: 'github', link: 'https://github.com/R-Chr'}
 - {icon: 'twitter', link: 'https://twitter.com/paululele'}
 - {icon: 'instagram', link: 'https://instagram.com/paululele'}
-- {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
+- {icon: 'linkedin', link: 'https://linkedin.com/in/rasmus-christensen-231100186/'}
 
 contacts:
-- {name: 'Dr. Academia', title: 'Professor', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/contact.jpg'}
+- {name: 'Rasmus Christensen', title: 'Ph.D. Fellow', department: 'Department of Chemistry and Bioscience', institution: 'Aalborg University', institution_address: 'Fredrik Bajers Vej 7H, 9220 Aalborg Øst', phone: '(000) 000-0000', email: 'rasmusc@bio.aau.dk', office: '1.339', image: 'assets/img/contact.jpg'}
