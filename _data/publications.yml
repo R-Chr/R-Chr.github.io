@@ -3,5 +3,15 @@ featured:
 - {name: 'Christensen, R., Sørensen, S. S., Liu, H., Li, K., Bauchy, M., & Smedskjær, M. M. (2021). Interatomic potential parameterization using particle swarm optimization: Case study of glassy silica. Journal of Chemical Physics 154, 134505.', url: 'https://aip.scitation.org/doi/10.1063/5.0041183'}
 
 index:
-- {name: 'Bødker, M. S., Christensen, R., Sørensen, L. G., Østergaard, M. B., Youngman, R. E., Mauro, J. C., & Smedskjær, M. M. (2020). Predicting Cation Interactions in Alkali Aluminoborate Glasses using Statistical Mechanics. Journal of Non-Crystalline Solids 544, 120099.', url: ''}
-- {name: 'Christensen, R., Sørensen, S. S., Liu, H., Li, K., Bauchy, M., & Smedskjær, M. M. (2021). Interatomic potential parameterization using particle swarm optimization: Case study of glassy silica. Journal of Chemical Physics 154, 134505.', url: 'https://aip.scitation.org/doi/10.1063/5.0041183'}
+- {name: 'Chen, Z., Du, T., Christensen, R., M., Bauchy, M., Smedskjær, M. M. (2023) Deciphering how
+anion clusters govern lithium conduction in glassy thiophosphate electrolytes through machine
+learning. ACS Energy Letters', url: 'https://pubs.acs.org/doi/abs/10.1021/acsenergylett.3c00237'}
+- {name: 'Chen, Z., Du, T., Sørensen S. S., Christensen, R., Zhang, Q., Jensen L. R., Magdysyuk, O. V.,
+Diaz-Lopez, M., Bauchy, M., Yue, Y, Smedskjær, M. M. (2023) Structure dependence of fracture
+toughness and ionic conductivity in lithium borophosphate glassy electrolytes for all-solid-state
+batteries. Journal of Power Sources 553, 232302', url: 'https://doi.org/10.1016/j.jpowsour.2022.232302'}
+- {name: 'To, T., Sørensen, S. S., Christensen, J. F. S., Christensen, R., Jensen, L. R., Bockowski, M.,
+Bauchy, M., & Smedskjær, M. M. (2021). Bond Switching in Densified Oxide Glass Enables
+Record-High Fracture Toughness. ACS Applied Materials & Interfaces 13, 17753–17765.', url: 'https://doi.org/10.1021/acsami.1c00435'}
+- {name: 'Bødker, M. S., Christensen, R., Sørensen, L. G., Østergaard, M. B., Youngman, R. E., Mauro, J. C., & Smedskjær, M. M. (2020). Predicting Cation Interactions in Alkali Aluminoborate Glasses using Statistical Mechanics. Journal of Non-Crystalline Solids 544, 120099.', url: 'https://doi.org/10.1016/j.jnoncrysol.2020.120099'}
+
