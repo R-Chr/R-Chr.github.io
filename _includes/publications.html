@@ -6,6 +6,11 @@
         <p><a href="{{ item.url }}">{{ item.name }}</a></p>
       {% endfor %}
     {% else %}
+    <h5 class="fw-bold pb-3 mb-5">First author</h5>
+      {% for item in site.data.publications.featured %}
+        <p><a href="{{ item.url }}">{{ item.name }}</a></p>
+      {% endfor %}
+    <h5 class="fw-bold pb-3 mb-5">Co-author</h5>
       {% for item in site.data.publications.index %}
         <p><a href="{{ item.url }}">{{ item.name }}</a></p>
       {% endfor %}
