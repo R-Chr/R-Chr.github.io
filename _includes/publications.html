@@ -14,6 +14,17 @@
       {% for item in site.data.publications.index %}
         <p><a href="{{ item.url }}">{{ item.name }}</a></p>
       {% endfor %}
+
+    <h3 class="fw-bold border-bottom pb-3 mb-5">Presentations</h3>
+    <h5 class="fw-bold pb-1 mb-2">Talks</h5>
+      {% for item in site.data.publications.talks %}
+        <p><a href="{{ item.url }}">{{ item.name }}</a></p>
+      {% endfor %}
+      <h5 class="fw-bold pb-1 mb-2">Posters</h5>
+      {% for item in site.data.publications.poster %}
+        <p><a href="{{ item.url }}">{{ item.name }}</a></p>
+      {% endfor %}
     {% endif %}
+    
   </div>
 </div>

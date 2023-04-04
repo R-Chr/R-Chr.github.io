@@ -15,3 +15,11 @@ Bauchy, M., & Smedskjær, M. M. (2021). Bond Switching in Densified Oxide Glass 
 Record-High Fracture Toughness. ACS Applied Materials & Interfaces 13, 17753–17765.', url: 'https://doi.org/10.1021/acsami.1c00435'}
 - {name: 'Bødker, M. S., Christensen, R., Sørensen, L. G., Østergaard, M. B., Youngman, R. E., Mauro, J. C., & Smedskjær, M. M. (2020). Predicting Cation Interactions in Alkali Aluminoborate Glasses using Statistical Mechanics. Journal of Non-Crystalline Solids 544, 120099.', url: 'https://doi.org/10.1016/j.jnoncrysol.2020.120099'}
 
+talks:
+- {name: 'Characterizing diffusion channels in glassy electrolytes using topological data analysis. Oral
+presentation given at 26th International Congress on Glass, Berlin, Germany (July 2022)'}
+
+poster:
+- {name: 'Interatomic potential parameterization using particle swarm optimization: Case study of
+glassy silica. Poster presented at Topical Meeting on Molecular Dynamics. V, Copenhagen,
+Denmark (August 2021)'}
