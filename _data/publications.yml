@@ -3,7 +3,13 @@ featured:
 - {name: 'Christensen, R., Sørensen, S. S., Liu, H., Li, K., Bauchy, M., & Smedskjær, M. M. (2021). Interatomic potential parameterization using particle swarm optimization: Case study of glassy silica. Journal of Chemical Physics 154, 134505.', url: 'https://aip.scitation.org/doi/10.1063/5.0041183'}
 
 index:
-- {name: 'Pedersen, E. J., To, T., Sørensen, S. S., Christensen, R., Christensen, J. F. S., Jensen, L. R., Bockowski, M., Magdysyuk, O. V., Diaz-Lopez, M., Yue, Y., Smedskjær, M. M. (2023) Short- and medium-range structure synergistically control fracture toughness of densified aluminoborate glasses. Phys. Rev. Materials 7, 053607', url: 'https://journals.aps.org/prmaterials/abstract/10.1103/PhysRevMaterials.7.053607'}
+- {name: 'Zhang, Q., Christensen, R., Bødker, M. L., Du, T., To, T., Muñoz, F., Bauchy, M., Smedskjær, M. M. (2023)
+Mechanical properties of transparent sodium phosphosilicate glass-ceramics. Physical Review Materials, 7, 063606',
+url: 'https://doi.org/10.1103/PhysRevMaterials.7.063606'}
+- {name: 'Pedersen, E. J., To, T., Sørensen, S. S., Christensen, R., Christensen, J. F. S., Jensen, L. R., Bockowski,
+M., Magdysyuk, O. V., Diaz-Lopez, M., Yue, Y., Smedskjær, M. M. (2023) Short- and medium-range structure synergistically
+control fracture toughness of densified aluminoborate glasses. Phys. Rev. Materials 7, 053607',
+url: 'https://journals.aps.org/prmaterials/abstract/10.1103/PhysRevMaterials.7.053607'}
 - {name: 'Chen, Z., Du, T., Christensen, R., M., Bauchy, M., Smedskjær, M. M. (2023) Deciphering how
 anion clusters govern lithium conduction in glassy thiophosphate electrolytes through machine
 learning. ACS Energy Letters 8, 4, 1969–1975', url: 'https://pubs.acs.org/doi/abs/10.1021/acsenergylett.3c00237'}
