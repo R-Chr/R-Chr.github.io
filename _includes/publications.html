@@ -24,7 +24,12 @@
       {% for item in site.data.publications.poster %}
         <p><a href="{{ item.url }}">{{ item.name }}</a></p>
       {% endfor %}
-    {% endif %}
     
+    <h3 class="fw-bold border-bottom pt-3 pb-2 mb-2">Patents</h3>
+    <h5 class="fw-bold pb-1 mb-2">Patent application</h5>
+      {% for item in site.data.publications.patent %}
+        <p><a href="{{ item.url }}">{{ item.name }}</a></p>
+      {% endfor %}
+    {% endif %}
   </div>
 </div>
