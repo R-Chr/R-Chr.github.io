@@ -8,4 +8,4 @@ I am specializing in computational material science, with a particular focus on 
 
 My research interests lie at the intersection of these areas, where I explore the fundamental physics and chemistry underlying the behavior of materials through atomistic simulations, and gain a deeper understanding of these relations through the use of different data science methods.
 
-On this website, you can find information about my research projects (coming), publications, and conference presentations. Please feel free to explore and reach out to me with any questions or collaboration opportunities.
+On this website, you can find information about my research projects, publications, and conference presentations. Please feel free to explore and reach out to me with any questions or collaboration opportunities.
