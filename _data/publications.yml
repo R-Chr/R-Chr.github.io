@@ -1,5 +1,5 @@
 featured:
-- {name: 'Christensen, R., Bleile, Y., Sørensen, S. S., Biscio, C. A. N., Fajstrup, L., & Smedskjær, M. M. (2023). Medium-range order structure controls thermal stability of pores in zeolitic imidazolate frameworks. Journal of Physical Chemistry Letters, In Press (Accepted, August 4 2023)', url: 'https://doi.org/10.1021/acs.jpclett.3c00962'}
+- {name: 'Christensen, R., Bleile, Y., Sørensen, S. S., Biscio, C. A. N., Fajstrup, L., & Smedskjær, M. M. (2023). Medium-range order structure controls thermal stability of pores in zeolitic imidazolate frameworks. Journal of Physical Chemistry Letters, 14, XXX, 7469–7476, url: 'https://doi.org/10.1021/acs.jpclett.3c00962'}
 - {name: 'Christensen, R., Sørensen, S. S., Liu, H., Li, K., Bauchy, M., & Smedskjær, M. M. (2021). Interatomic potential parameterization using particle swarm optimization: Case study of glassy silica. Journal of Chemical Physics 154, 134505.', url: 'https://aip.scitation.org/doi/10.1063/5.0041183'}
 
 index:
