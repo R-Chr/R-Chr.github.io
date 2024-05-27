@@ -3,6 +3,9 @@ featured:
 - {name: 'Christensen, R., Sørensen, S. S., Liu, H., Li, K., Bauchy, M., & Smedskjær, M. M. (2021). Interatomic potential parameterization using particle swarm optimization: Case study of glassy silica. Journal of Chemical Physics 154, 134505.', url: 'https://aip.scitation.org/doi/10.1063/5.0041183'}
 
 index:
+- {name: 'Firooz, A. F., Christensen, R., Biscio, C. A. N., Smedskjaer, M. M., (2024)
+Characterizing medium-range order structure of binary silicate glasses using ring analysis and persistent homology. J Am Ceram Soc. 1–12',
+url: 'https://doi.org/10.1111/jace.19924'}
 - {name: 'Zhang, Q., Christensen, R., Bødker, M. L., Du, T., To, T., Muñoz, F., Bauchy, M., Smedskjær, M. M. (2023)
 Mechanical properties of transparent sodium phosphosilicate glass-ceramics. Physical Review Materials, 7, 063606',
 url: 'https://doi.org/10.1103/PhysRevMaterials.7.063606'}
