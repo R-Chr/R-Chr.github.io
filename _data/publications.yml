@@ -23,6 +23,8 @@ Record-High Fracture Toughness. ACS Applied Materials & Interfaces 13, 17753–1
 - {name: 'Bødker, M. S., Christensen, R., Sørensen, L. G., Østergaard, M. B., Youngman, R. E., Mauro, J. C., & Smedskjær, M. M. (2020). Predicting Cation Interactions in Alkali Aluminoborate Glasses using Statistical Mechanics. Journal of Non-Crystalline Solids 544, 120099.', url: 'https://doi.org/10.1016/j.jnoncrysol.2020.120099'}
 
 talks:
+- {name: 'Predicting dynamics from structure in a sodium silicate glass. Oral
+presentation given at GOMD 2024, Las Vegas, USA (May 2024)'}
 - {name: 'Predicting dynamics in sodium silicate glasses using graph neural networks. Oral
 presentation given at ICG Annual Meeting 2023, Hangzhou, China, and MRS Fall Meeting, Boston, USA (November 2023)'}
 - {name: 'Medium-Range Order Structure Controls Thermal Stability of Pores in Zeolitic Imidazolate Frameworks. Oral
@@ -31,6 +33,7 @@ presentation given at ICG Annual Meeting 2023, Hangzhou, China, (November 2023)'
 presentation given at 26th International Congress on Glass, Berlin, Germany (July 2022)'}
 
 poster:
+- {name: 'Deciphering the Structural Origin of Disorder-Induced Ion Conduction in NaFePO4 Glasses. Poster presented at GOMD 2024, Las Vegas, USA, (May 2024)'}
 - {name: 'Medium-Range Order Structure Controls Thermal Stability of Pores in Zeolitic Imidazolate Frameworks. Poster presented at ICG Annual Meeting 2023, Hangzhou, China, (November 2023)'}
 - {name: 'Interatomic potential parameterization using particle swarm optimization: Case study of glassy silica. Poster presented at Topical Meeting on Molecular Dynamics. V, Copenhagen, Denmark (August 2021) and at the 26th International Congress on Glass, Berlin, Germany (July 2022)'}
 
