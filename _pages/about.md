@@ -66,27 +66,21 @@ On this website, you can find information about my research projects, publicatio
 # 💬 Conference Talks
 ## Contributed talks (presenter)
 
-- R. Christensen, K. A. Persson, M. M. Smedskjaer, “Structural origin of disorder-induced ion conduction in NaFePO4 cathode materials”, presented at The 17th International Conference on the Physics of Non-Crystalline Solids 2025, Tsukuba, Japan (August 2025)
+- The 17th International Conference on the Physics of Non-Crystalline Solids 2025, Tsukuba, Japan (August 2025)
 
-- R. Christensen, M. M. Smedskjaer, “Predicting dynamics in glasses using graph neural networks”, presented at Glass & Optical Materials Division Annual Meeting 2024 (GOMD 2024), Las Vegas, USA (May 2024)
+- Glass & Optical Materials Division Annual Meeting 2024 (GOMD 2024), Las Vegas, USA (May 2024)
 
-- R. Christensen, M. M. Smedskjaer, “Predicting Dynamics in Sodium Silicate Glasses using Graph Neural Networks”, presented at MRS Fall Meeting, Boston, USA (November 2023)
+- MRS Fall Meeting, Boston, USA (November 2023)
 
-- R. Christensen, M. M. Smedskjaer, “Predicting Dynamics in Sodium Silicate Glasses using Graph Neural Networks”, presented at ICG Annual Meeting 2023, Hangzhou, China (November 2023), 
+- ICG Annual Meeting 2023, Hangzhou, China (November 2023)
 
-- R. Christensen, Y. Bleile, S. S. Sørensen, C. A. N. Biscio, L. Fajstrup, M. M. Smedskjaer, “Medium-Range Order Structure Controls Thermal Stability of Pores in Zeolitic Imidazolate Frameworks”, presented at ICG Annual Meeting 2023, Hangzhou, China, (November 2023).
-
-- R. Christensen, C. A. N. Biscio, L. Fajstrup, M. M. Smedskjaer, “Characterizing diffusion channels in glassy electrolytes using topological data analysis”, presented at 26th International Congress on Glass, Berlin, Germany (July 2022)
+- 26th International Congress on Glass, Berlin, Germany (July 2022)
 
 
-## Poster presentations: (presenter)
+# Professional Service
 
-- R. Christensen, M. M. Smedskjaer, “Machine Learning Interatomic Potential for Screening Mixed Anion Glass Electrolytes”, presented at The 17th International Conference on the Physics of Non-Crystalline Solids 2025, Tsukuba, Japan (August 2025)
+### Journal Reviewer
 
-- R. Christensen, K. A. Persson and M. M. Smedskjaer, “Deciphering the Structural Origin of Disorder-Induced Ion Conduction in NaFePO4 Glasses”, presented at Glass & Optical Materials Division Annual Meeting 2024 (GOMD 2024), Las Vegas, USA (May 2024) 
+- [Journal of Non-Crystalline Solids](https://www.journals.elsevier.com/journal-of-non-crystalline-solids)
+- [npj Computational Materials](https://www.nature.com/npjcompumats/)
 
-- R. Christensen, Y. Bleile, S. S. Sørensen, C. A. N. Biscio, L. Fajstrup, M. M. Smedskjaer,  “Medium-Range Order Structure Controls Thermal Stability of Pores in Zeolitic Imidazolate Frameworks”, presented at MRS Fall Meeting, Boston, USA (November 2023)
-
-- R. Christensen, S. S. Sørensen, H. Liu, K. Li, M. Bauchy, M. M. Smedskjaer, “Interatomic potential parameterization using particle swarm optimization: Case study of glassy silica”, presented at 26th International Congress on Glass, Berlin, Germany (July 2022)
-
-- R. Christensen, S. S. Sørensen, H. Liu, K. Li, M. Bauchy, M. M. Smedskjaer, “Interatomic potential parameterization using particle swarm optimization: Case study of glassy silica”, presented at Topical Meeting on Molecular Dynamics. V, Copenhagen, Denmark (August 2021) 
