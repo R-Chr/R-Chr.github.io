@@ -17,42 +17,66 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am specializing in computational material science, with a particular focus on the fields of disordered materials, energy materials, molecular dynamics, topological data analysis, and machine learning. My research interests lie at the intersection of these areas, where I explore the fundamental physics and chemistry underlying the behavior of materials through atomistic simulations, and gain a deeper understanding of these relations through the use of different data science methods.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+Previous Ph.D. Fellow in the Glass Structure and Mechanics Group at Aalborg University, Department of Chemistry and Bioscience co-supervised by Morten M. Smedskjær and Lisbeth Fajstrup . 
 
+On this website, you can find information about my research projects, publications, and conference presentations. Please feel free to explore and reach out to me with any questions or collaboration opportunities.
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.12*: &nbsp; Starting a new position as a JSPS Postdoctoral Researcher at Tohoku University, Japan
+- *2025.10*: &nbsp; Successfully defended my Ph.D. thesis at Aalborg University, Department of Chemistry and Bioscience 🎉🎉
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ChemRxiv 2025</div><img src='images/Slide1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[Accelerating the Discovery of High-Conductivity Glass Electrolytes via Machine Learning](https://chemrxiv.org/engage/chemrxiv/article-details/686fa7a443bc52e4ec366d6c)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Rasmus Christensen**, Morten M. Smedskjær, 
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UqBYL00AAAAJ&sortby=pubdate&citation_for_view=UqBYL00AAAAJ:7PzlFSSx8tAC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- A machine learning interatomic potential is introduced for rapid prediction of sodium-ion conductivity in a wide range of glass electrolytes across 1,303 compositions. The study demonstrates how anion chemistry, particularly sulphides and halides, governs ion mobility, and identifies structural descriptors linked to ionic conductivity. The findings offer a data-driven approach to designing high-performance glassy solid electrolytes for batteries. 
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.08* Awarded a short-term JSPS Postdoctoral Fellowship for the project "Computational Design of Ultra-Low Loss Glass Fibers for Quantum Communication"
+- *2022.06* Awarded the Danish Data Science Academy PhD fellowship grant or the project “Computational design of disordered electrode materials for batteries” (1,890,000 DKK)"
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2020-2022* Ph.D. in Materials Chemistry, Aalborg University, Denmark ()
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- *2018-2020* M.Sc. in Chemistry, Aalborg University, Denmark ()
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2015-2018* B.Sc. in Chemistry, Aalborg University, Denmark ()
+
+# 💬 Conference Talks
+## Contributed talks (presenter)
+
+- R. Christensen, K. A. Persson, M. M. Smedskjaer, “Structural origin of disorder-induced ion conduction in NaFePO4 cathode materials”, presented at The 17th International Conference on the Physics of Non-Crystalline Solids 2025, Tsukuba, Japan (August 2025)
+
+- R. Christensen, M. M. Smedskjaer, “Predicting dynamics in glasses using graph neural networks”, presented at Glass & Optical Materials Division Annual Meeting 2024 (GOMD 2024), Las Vegas, USA (May 2024)
+
+- R. Christensen, M. M. Smedskjaer, “Predicting Dynamics in Sodium Silicate Glasses using Graph Neural Networks”, presented at MRS Fall Meeting, Boston, USA (November 2023)
+
+- R. Christensen, M. M. Smedskjaer, “Predicting Dynamics in Sodium Silicate Glasses using Graph Neural Networks”, presented at ICG Annual Meeting 2023, Hangzhou, China (November 2023), 
+
+- R. Christensen, Y. Bleile, S. S. Sørensen, C. A. N. Biscio, L. Fajstrup, M. M. Smedskjaer, “Medium-Range Order Structure Controls Thermal Stability of Pores in Zeolitic Imidazolate Frameworks”, presented at ICG Annual Meeting 2023, Hangzhou, China, (November 2023).
+
+- R. Christensen, C. A. N. Biscio, L. Fajstrup, M. M. Smedskjaer, “Characterizing diffusion channels in glassy electrolytes using topological data analysis”, presented at 26th International Congress on Glass, Berlin, Germany (July 2022)
+
+
+## Poster presentations: (presenter)
+
+- R. Christensen, M. M. Smedskjaer, “Machine Learning Interatomic Potential for Screening Mixed Anion Glass Electrolytes”, presented at The 17th International Conference on the Physics of Non-Crystalline Solids 2025, Tsukuba, Japan (August 2025)
+
+- R. Christensen, K. A. Persson and M. M. Smedskjaer, “Deciphering the Structural Origin of Disorder-Induced Ion Conduction in NaFePO4 Glasses”, presented at Glass & Optical Materials Division Annual Meeting 2024 (GOMD 2024), Las Vegas, USA (May 2024) 
+
+- R. Christensen, Y. Bleile, S. S. Sørensen, C. A. N. Biscio, L. Fajstrup, M. M. Smedskjaer,  “Medium-Range Order Structure Controls Thermal Stability of Pores in Zeolitic Imidazolate Frameworks”, presented at MRS Fall Meeting, Boston, USA (November 2023)
+
+- R. Christensen, S. S. Sørensen, H. Liu, K. Li, M. Bauchy, M. M. Smedskjaer, “Interatomic potential parameterization using particle swarm optimization: Case study of glassy silica”, presented at 26th International Congress on Glass, Berlin, Germany (July 2022)
+
+- R. Christensen, S. S. Sørensen, H. Liu, K. Li, M. Bauchy, M. M. Smedskjaer, “Interatomic potential parameterization using particle swarm optimization: Case study of glassy silica”, presented at Topical Meeting on Molecular Dynamics. V, Copenhagen, Denmark (August 2021) 
