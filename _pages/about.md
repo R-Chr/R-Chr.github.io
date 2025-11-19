@@ -27,7 +27,7 @@ On this website, you can find information about my research projects, publicatio
 - *2025.12*: &nbsp; Starting a new position as a JSPS Postdoctoral Researcher at Tohoku University, Japan
 - *2025.10*: &nbsp; Successfully defended my Ph.D. thesis at Aalborg University, Department of Chemistry and Bioscience 🎉🎉
 
-# 📝 Publications 
+# 📝 Highlighted Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ChemRxiv 2025</div><img src='images/Slide1.png' alt="sym" width="75%"></div></div>
 <div class='paper-box-text' markdown="1">
