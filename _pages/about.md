@@ -52,12 +52,14 @@ On this website, you can find information about my research projects, publicatio
 </div>
 </div>
 
+<span class='anchor' id='grants-and-awards'></span>
 # 🎖 Grants and Awards
 - *2025.08*   Awarded a short-term JSPS Postdoctoral Fellowship for the project "Computational Design of Ultra-Low Loss Glass Fibers for Quantum Communication"
 - *2025.04*   Co-PI for Computational grant for “Extreme Scale Access” on LUMI from the European High Performance Computing Joint Undertaking (EuroHPC JU) (18 million CPU core hours)
 - *2024.05*   Best Graduate Student Poster Prize (Second Place) at the Glass & Optical Materials Division Annual Meeting 2024 (GOMD 2024)
 - *2022.06*   Awarded the Danish Data Science Academy PhD fellowship grant for the project “Computational design of disordered electrode materials for batteries” (1,890,000 DKK)
 
+<span class='anchor' id='educations'></span>
 # 📖 Educations
 - *2020-2022*   Ph.D. in Materials Chemistry, Aalborg University, Denmark
 
@@ -65,6 +67,7 @@ On this website, you can find information about my research projects, publicatio
 
 - *2015-2018*   B.Sc. in Chemistry, Aalborg University, Denmark
 
+<span class='anchor' id='conference-talks'></span>
 # 💬 Conference Talks
 ## Contributed talks (presenter)
 
@@ -78,7 +81,7 @@ On this website, you can find information about my research projects, publicatio
 
 - 26th International Congress on Glass, Berlin, Germany (July 2022)
 
-
+<span class='anchor' id='professional-service'></span>
 # Professional Service
 
 ## Journal Reviewer
