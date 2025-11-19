@@ -29,7 +29,7 @@ On this website, you can find information about my research projects, publicatio
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ChemRxiv 2025</div><img src='images/Slide1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ChemRxiv 2025</div><img src='images/Slide1.png' alt="sym" width="75%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Accelerating the Discovery of High-Conductivity Glass Electrolytes via Machine Learning](https://chemrxiv.org/engage/chemrxiv/article-details/686fa7a443bc52e4ec366d6c)
@@ -41,7 +41,7 @@ On this website, you can find information about my research projects, publicatio
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ChemRxiv 2025</div><img src='images/ToC_JMCA_25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">J. Mater. Chem. A 2025</div><img src='images/ToC_JMCA_25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Structural origin of disorder-induced ion conduction in NaFePO4 cathode materials](https://doi.org/10.1039/D5TA02295A)
@@ -52,9 +52,11 @@ On this website, you can find information about my research projects, publicatio
 </div>
 </div>
 
-# 🎖 Honors and Awards
+# 🎖 Grants and Awards
 - *2025.08*   Awarded a short-term JSPS Postdoctoral Fellowship for the project "Computational Design of Ultra-Low Loss Glass Fibers for Quantum Communication"
-- *2022.06*   Awarded the Danish Data Science Academy PhD fellowship grant or the project “Computational design of disordered electrode materials for batteries” (1,890,000 DKK)"
+- *2025.04*   Co-PI for Computational grant for “Extreme Scale Access” on LUMI from the European High Performance Computing Joint Undertaking (EuroHPC JU) (18 million CPU core hours)
+- *2024.05*   Best Graduate Student Poster Prize (Second Place) at the Glass & Optical Materials Division Annual Meeting 2024 (GOMD 2024)
+- *2022.06*   Awarded the Danish Data Science Academy PhD fellowship grant for the project “Computational design of disordered electrode materials for batteries” (1,890,000 DKK)
 
 # 📖 Educations
 - *2020-2022*   Ph.D. in Materials Chemistry, Aalborg University, Denmark
@@ -79,7 +81,7 @@ On this website, you can find information about my research projects, publicatio
 
 # Professional Service
 
-### Journal Reviewer
+## Journal Reviewer
 
 - [Journal of Non-Crystalline Solids](https://www.journals.elsevier.com/journal-of-non-crystalline-solids)
 - [npj Computational Materials](https://www.nature.com/npjcompumats/)
