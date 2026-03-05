@@ -61,7 +61,7 @@ On this website, you can find information about my research projects, publicatio
 
 <span class='anchor' id='educations'></span>
 # 📖 Educations
-- *2020-2022*   Ph.D. in Materials Chemistry, Aalborg University, Denmark
+- *2022-2025*   Ph.D. in Materials Chemistry, Aalborg University, Denmark
 
 - *2018-2020*   M.Sc. in Chemistry, Aalborg University, Denmark
 
