@@ -49,6 +49,7 @@ On this website, you can find information about my research projects, publicatio
 **Rasmus Christensen**, Kristin A. Persson, and Morten M. Smedskjær 
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UqBYL00AAAAJ&sortby=pubdate&citation_for_view=UqBYL00AAAAJ:QIV2ME_5wuYC) <strong><span class='show_paper_citations' data='UqBYL00AAAAJ:QIV2ME_5wuYC'></span></strong>
+- This study utilizes a machine learning potential based on the atomic cluster expansion (ACE) to investigate the enhanced sodium-ion mobility in amorphous $NaFePO_4$. By employing molecular dynamics simulations, we reveal that ion diffusion in these glassy cathodes is highly heterogeneous and governed by specific local structural features.
 </div>
 </div>
 
