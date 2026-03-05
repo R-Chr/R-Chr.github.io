@@ -29,10 +29,10 @@ On this website, you can find information about my research projects, publicatio
 
 # 📝 Highlighted Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ChemRxiv 2025</div><img src='images/Slide1.png' alt="sym" width="75%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Adv. Energy Mater. 2025</div><img src='images/Slide1.png' alt="sym" width="75%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Accelerating the Discovery of High-Conductivity Glass Electrolytes via Machine Learning](https://chemrxiv.org/engage/chemrxiv/article-details/686fa7a443bc52e4ec366d6c)
+[Accelerating the Discovery of High-Conductivity Glass Electrolytes via Machine Learning](https://doi.org/10.1002/aenm.202503813)
 
 **Rasmus Christensen** & Morten M. Smedskjær 
 
