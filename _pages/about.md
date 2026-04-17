@@ -89,4 +89,4 @@ Here you can find information about my research projects, publications, and conf
 
 - [Journal of Non-Crystalline Solids](https://www.journals.elsevier.com/journal-of-non-crystalline-solids)
 - [npj Computational Materials](https://www.nature.com/npjcompumats/)
-
+- [Ceramics International](https://www.sciencedirect.com/journal/ceramics-international)
