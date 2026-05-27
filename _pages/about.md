@@ -61,15 +61,24 @@ Here you can find information about my research projects, publications, and conf
 - *2022.06*   **Danish Data Science Academy PhD Fellowship** for "Computational design of disordered electrode materials for batteries" (1,890,000 DKK).
 
 <span class='anchor' id='educations'></span>
-# 📖 Educations
+# 📖 Education
 - *2022-2025*   Ph.D. in Materials Chemistry, Aalborg University, Denmark
 
 - *2018-2020*   M.Sc. in Chemistry, Aalborg University, Denmark
 
 - *2015-2018*   B.Sc. in Chemistry, Aalborg University, Denmark
 
+<span class='anchor' id='software'></span>
+# 👾 Software
+- [Vitrum](https://vitrum.readthedocs.io/en/latest/): Python package for analysis of simulations of glass materials
+
 <span class='anchor' id='conference-talks'></span>
 # 💬 Conference Talks
+
+## Invited talks (presenter)
+
+- International Forum of Solid State Batteries 2026, Sendai, Japan (May 2026)
+
 ## Contributed talks (presenter)
 
 - The 17th International Conference on the Physics of Non-Crystalline Solids 2025, Tsukuba, Japan (August 2025)
