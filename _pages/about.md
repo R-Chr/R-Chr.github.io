@@ -23,12 +23,6 @@ Currently, I am a JSPS Postdoctoral Researcher at Tohoku University. Previously,
 
 Here you can find information about my research projects, publications, and conference presentations. Please feel free to explore and reach out with any questions or collaboration opportunities!
 
-<p>
-  <a class="btn" href="/files/CV.pdf" download>
-    <i class="fas fa-file-download" aria-hidden="true"></i> Download CV
-  </a>
-</p>
-
 # 🔥 News
 - *2026.05*: &nbsp; Presented at International Forum of Solid State Batteries 2026 at Tohoku University, Japan
 - *2025.12*: &nbsp; Starting a new position as a JSPS Postdoctoral Researcher at Tohoku University, Japan
