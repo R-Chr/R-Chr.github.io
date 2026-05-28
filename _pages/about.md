@@ -54,6 +54,14 @@ Here you can find information about my research projects, publications, and conf
 </div>
 </div>
 
+<span class='anchor' id='publications'></span>
+# Publications
+
+<div class="publication-filter" id="publication-year-filter" aria-label="Filter publications by year"></div>
+<div class="publication-list" id="google-scholar-publications">
+  <p>Loading publications from Google Scholar...</p>
+</div>
+
 <span class='anchor' id='grants-and-awards'></span>
 # 🎖 Grants and Awards
 - *2025.08*   **JSPS Postdoctoral Fellowship** (Short-term) for "Computational Design of Ultra-Low Loss Glass Fibers for Quantum Communication."

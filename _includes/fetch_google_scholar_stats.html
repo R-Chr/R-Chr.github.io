@@ -7,13 +7,96 @@
         {% endif %}
         $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
             var totalCitation = data['citedby']
-            document.getElementById('total_cit').innerHTML = totalCitation;
+            var totalCitationEle = document.getElementById('total_cit');
+            if (totalCitationEle) {
+                totalCitationEle.innerHTML = totalCitation;
+            }
             var citationEles = document.getElementsByClassName('show_paper_citations')
             Array.prototype.forEach.call(citationEles, element => {
                 var paperId = element.getAttribute('data')
-                var numCitations = data['publications'][paperId]['num_citations']
-                element.innerHTML = '| Citations: ' + numCitations;
+                if (data['publications'] && data['publications'][paperId]) {
+                    var numCitations = data['publications'][paperId]['num_citations']
+                    element.innerHTML = '| Citations: ' + numCitations;
+                }
             });
+            renderGoogleScholarPublications(data);
+        }).fail(function () {
+            var publicationList = $('#google-scholar-publications');
+            if (publicationList.length) {
+                publicationList.html('<p>Publications could not be loaded from Google Scholar right now. Please use the Google Scholar link in the sidebar.</p>');
+            }
         });
+
+        function renderGoogleScholarPublications(data) {
+            var publicationList = $('#google-scholar-publications');
+            var filter = $('#publication-year-filter');
+            if (!publicationList.length || !data['publications']) {
+                return;
+            }
+
+            var publications = Object.keys(data['publications']).map(function (id) {
+                var publication = data['publications'][id];
+                publication.author_pub_id = publication.author_pub_id || id;
+                return publication;
+            }).sort(function (a, b) {
+                var yearA = parseInt((a.bib && a.bib.pub_year) || 0, 10);
+                var yearB = parseInt((b.bib && b.bib.pub_year) || 0, 10);
+                if (yearA !== yearB) {
+                    return yearB - yearA;
+                }
+                return ((a.bib && a.bib.title) || '').localeCompare((b.bib && b.bib.title) || '');
+            });
+
+            var years = publications.reduce(function (result, publication) {
+                var year = publication.bib && publication.bib.pub_year;
+                if (year && result.indexOf(year) === -1) {
+                    result.push(year);
+                }
+                return result;
+            }, []).sort(function (a, b) {
+                return parseInt(b, 10) - parseInt(a, 10);
+            });
+
+            filter.empty();
+            $('<button>', { type: 'button', class: 'active', text: 'All', 'data-year': 'all' }).appendTo(filter);
+            years.forEach(function (year) {
+                $('<button>', { type: 'button', text: year, 'data-year': year }).appendTo(filter);
+            });
+
+            publicationList.empty();
+            publications.forEach(function (publication) {
+                var bib = publication.bib || {};
+                var title = bib.title || 'Untitled publication';
+                var year = bib.pub_year || 'Year unavailable';
+                var venue = bib.journal || bib.conference || bib.publisher || bib.citation || '';
+                var authors = bib.author || '';
+                var citations = publication.num_citations || 0;
+                var scholarUrl = 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UqBYL00AAAAJ&sortby=pubdate&citation_for_view=' + publication.author_pub_id;
+
+                var item = $('<article>', { class: 'publication-item', 'data-year': year });
+                var titleLink = $('<a>', { href: scholarUrl, text: title });
+                $('<h3>').append(titleLink).appendTo(item);
+                if (authors) {
+                    $('<p>', { class: 'publication-authors', text: authors }).appendTo(item);
+                }
+                $('<p>', { class: 'publication-meta', text: [venue, year].filter(Boolean).join(' · ') }).appendTo(item);
+                $('<p>', { class: 'publication-links' })
+                    .append($('<a>', { href: scholarUrl, text: 'Google Scholar' }))
+                    .append(' | Citations: ' + citations)
+                    .appendTo(item);
+                item.appendTo(publicationList);
+            });
+
+            filter.find('button').on('click', function () {
+                var selectedYear = $(this).data('year').toString();
+                filter.find('button').removeClass('active');
+                $(this).addClass('active');
+
+                publicationList.find('.publication-item').each(function () {
+                    var itemYear = $(this).data('year').toString();
+                    $(this).toggle(selectedYear === 'all' || itemYear === selectedYear);
+                });
+            });
+        }
     })
 </script>

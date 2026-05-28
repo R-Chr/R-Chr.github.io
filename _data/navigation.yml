@@ -9,6 +9,9 @@ main:
   - title: "Highlighted Publications"
     url: "/#-highlighted-publications"
 
+  - title: "Publications"
+    url: "/#publications"
+
   - title: "Grants and Awards"
     url: "/#-grants-and-awards"
 
