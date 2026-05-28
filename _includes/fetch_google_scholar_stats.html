@@ -68,7 +68,7 @@
                 var bib = publication.bib || {};
                 var title = bib.title || 'Untitled publication';
                 var year = bib.pub_year || 'Year unavailable';
-                var venue = bib.journal || bib.conference || bib.publisher || bib.citation || '';
+                var venue = bib.venue || bib.journal || bib.conference || bib.publisher || bib.citation || '';
                 var authors = bib.author || '';
                 var citations = publication.num_citations || 0;
                 var scholarUrl = 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UqBYL00AAAAJ&sortby=pubdate&citation_for_view=' + publication.author_pub_id;
@@ -79,11 +79,7 @@
                 if (authors) {
                     $('<p>', { class: 'publication-authors', text: authors }).appendTo(item);
                 }
-                $('<p>', { class: 'publication-meta', text: [venue, year].filter(Boolean).join(' · ') }).appendTo(item);
-                $('<p>', { class: 'publication-links' })
-                    .append($('<a>', { href: scholarUrl, text: 'Google Scholar' }))
-                    .append(' | Citations: ' + citations)
-                    .appendTo(item);
+                $('<p>', { class: 'publication-meta', text: [venue, year, 'Citations: ' + citations].filter(Boolean).join(' · ') }).appendTo(item);
                 item.appendTo(publicationList);
             });
 
