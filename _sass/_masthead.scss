@@ -5,18 +5,22 @@
 .masthead {
   position: sticky;
   top: 0;
-  background-color: white;
+  background-color: var(--bg);
   border-bottom: 1px solid $border-color;
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
+  transition: background-color 0.2s ease-in-out;
   z-index: 20;
 
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: .5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .75em .5em;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -34,12 +38,46 @@
 }
 
 .masthead__menu {
+  flex: 1 1 auto;
+  min-width: 0;
 
   ul {
     margin: 0;
     padding: 0;
     clear: both;
     list-style-type: none;
+  }
+}
+
+.theme-toggle {
+  flex: 0 0 auto;
+  margin-left: 1em;
+  padding: 0.4em 0.6em;
+  color: var(--text);
+  font-size: 1em;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: $border-radius;
+  cursor: pointer;
+  transition: $global-transition;
+
+  &:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+  }
+
+  .fa-sun {
+    display: none;
+  }
+
+  [data-theme="dark"] & {
+    .fa-moon {
+      display: none;
+    }
+
+    .fa-sun {
+      display: inline-block;
+    }
   }
 }
 

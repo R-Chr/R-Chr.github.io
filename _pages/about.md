@@ -23,11 +23,13 @@ Currently, I am a JSPS Postdoctoral Researcher at Tohoku University. Previously,
 
 Here you can find information about my research projects, publications, and conference presentations. Please feel free to explore and reach out with any questions or collaboration opportunities!
 
+<span class='anchor' id='news'></span>
 # 🔥 News
 - *2026.05*: &nbsp; Presented at International Forum of Solid State Batteries 2026 at Tohoku University, Japan
 - *2025.12*: &nbsp; Starting a new position as a JSPS Postdoctoral Researcher at Tohoku University, Japan
 - *2025.10*: &nbsp; Successfully defended my Ph.D. thesis at Aalborg University, Department of Chemistry and Bioscience 🎉🎉
 
+<span class='anchor' id='highlighted-publications'></span>
 # 📝 Highlighted Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Adv. Energy Mater. 2025</div><img src='images/Slide1.png' alt="sym" width="75%"></div></div>
@@ -57,10 +59,13 @@ Here you can find information about my research projects, publications, and conf
 <span class='anchor' id='publications'></span>
 # Publications
 
-<div class="publication-filter" id="publication-year-filter" aria-label="Filter publications by year"></div>
-<div class="publication-list" id="google-scholar-publications">
+Most recent publications, pulled automatically from Google Scholar.
+
+<div class="publication-list" id="google-scholar-publications" data-limit="5">
   <p>Loading publications from Google Scholar...</p>
 </div>
+
+<a class="publication-teaser-link" href="/publications/" target="_self">View the full publication list &rarr;</a>
 
 <span class='anchor' id='grants-and-awards'></span>
 # 🎖 Grants and Awards
@@ -104,8 +109,8 @@ Here you can find information about my research projects, publications, and conf
 # Professional Service
 
 ## Journal Reviewer
-
-- [Journal of Non-Crystalline Solids](https://www.journals.elsevier.com/journal-of-non-crystalline-solids)
 - [npj Computational Materials](https://www.nature.com/npjcompumats/)
+- [Journal of Non-Crystalline Solids](https://www.journals.elsevier.com/journal-of-non-crystalline-solids)
+- [Journal of the American Ceramic Society](https://ceramics.onlinelibrary.wiley.com/journal/15512916)
 - [Ceramics International](https://www.sciencedirect.com/journal/ceramics-international)
 - [Journal of Nuclear Materials](https://www.sciencedirect.com/journal/journal-of-nuclear-materials)

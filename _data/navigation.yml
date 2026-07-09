@@ -4,25 +4,25 @@ main:
     url: "/#about-me"
 
   - title: "News"
-    url: "/#-news"
+    url: "/#news"
 
   - title: "Highlighted Publications"
-    url: "/#-highlighted-publications"
+    url: "/#highlighted-publications"
 
   - title: "Publications"
-    url: "/#publications"
+    url: "/publications/"
 
   - title: "Grants and Awards"
-    url: "/#-grants-and-awards"
+    url: "/#grants-and-awards"
 
   - title: "Educations"
-    url: "/#-educations"
+    url: "/#educations"
 
   - title: "Software"
-    url: "/#-software"
+    url: "/#software"
 
   - title: "Conference Talks"
-    url: "/#-conference-talks"
+    url: "/#conference-talks"
 
   - title: "Professional Service"
-    url: "/#-professional-service"
+    url: "/#professional-service"

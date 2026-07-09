@@ -11,6 +11,7 @@
 */
 
 @import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "theme"; // light/dark CSS custom properties
 @import "variables";
 @import "mixins";
 @import "vendor/susy/susy";
@@ -43,30 +44,46 @@
 .paper-box {
     display: flex;
     justify-content: left;
-    align-items: center;
+    align-items: stretch;
     flex-direction: row;
     flex-wrap: wrap;
-    border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
-    
+    margin-bottom: 1.5em;
+    padding: 1.5em;
+    background-color: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: $border-radius * 2;
+    box-shadow: 0 1px 3px rgba(#000, 0.06);
+    transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+
+    &:hover {
+        box-shadow: 0 6px 20px rgba(#000, 0.1);
+        transform: translateY(-2px);
+    }
 
     .paper-box-image{
+        position: relative;
         justify-content: center;
         display: flex;
         width: 100%;
         order: 2;
         img {
             max-width: 400px;
-            box-shadow: 3px 3px 6px #888;
+            /* figures are journal TOC graphics with a white/transparent
+               background; mat them on white so they read the same in
+               both themes instead of clashing with a dark card */
+            background-color: #fff;
+            padding: .5em;
+            border: 1px solid var(--border);
+            border-radius: $border-radius;
             object-fit: cover;
         }
     }
-    
+
     .paper-box-text{
         max-width: 100%;
         order: 1;
     }
-    
+
     @include breakpoint($medium) {
         .paper-box-image{
             justify-content: left;
@@ -74,7 +91,7 @@
             max-width: 40%;
             order: 1;
         }
-        
+
         .paper-box-text{
             justify-content: left;
             padding-left: 2em;
@@ -88,24 +105,26 @@
 }
 
 $scroll_offset : 2em;
-h1:before, .anchor:before { 
-    content: ''; 
-    display: block; 
-    position: relative; 
-    width: 0; 
-    height: $scroll_offset; 
+h1:before, .anchor:before {
+    content: '';
+    display: block;
+    position: relative;
+    width: 0;
+    height: $scroll_offset;
     margin-top: -$scroll_offset;
 }
 
 .badge {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    display: inline-block;
     position: absolute;
-    margin-top: .5em;
-    margin-left: -.5em;
-    color: white;
-    background-color: #00369f;
-    font-size: .8em;
+    top: .75em;
+    left: .75em;
+    padding: .25em .75em;
+    color: #fff;
+    font-size: .75em;
+    font-weight: bold;
+    background-color: var(--accent);
+    border-radius: 999px;
 }
 
 .publication-filter {
@@ -115,48 +134,70 @@ h1:before, .anchor:before {
     margin: 1em 0 1.5em;
 
     button {
-        padding: .35em .85em;
-        color: $text-color;
+        padding: .35em .9em;
+        color: var(--text);
         font-family: $sans-serif;
         font-size: $type-size-6;
-        background-color: #fff;
-        border: 1px solid $border-color;
-        border-radius: $border-radius;
+        background-color: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 999px;
         cursor: pointer;
+        transition: $global-transition;
 
         &.active,
         &:hover {
             color: #fff;
-            background-color: $primary-color;
-            border-color: $primary-color;
+            background-color: var(--accent);
+            border-color: var(--accent);
         }
     }
 }
 
 .publication-list {
-    height: 28rem;
-    max-height: 40vh;
-    margin-bottom: 2em;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-    overscroll-behavior: contain;
-    padding: .25em .75em .25em 0;
-    border-top: 1px solid #efefef;
-    border-bottom: 1px solid #efefef;
+    margin-bottom: 1em;
+}
+
+/* compact teaser used on the homepage: a handful of recent items, no scroll box */
+.publication-list--compact {
+    .publication-item:last-child {
+        border-bottom: 0;
+    }
+}
+
+/* full list used on the dedicated publications page */
+.publication-list--full {
+    .publication-item:last-child {
+        border-bottom: 0;
+    }
+}
+
+.publication-teaser-link {
+    display: inline-block;
+    margin: .5em 0 1.5em;
+    font-weight: bold;
+    color: var(--link);
+
+    &:hover {
+        color: var(--link-hover);
+    }
 }
 
 .publication-item {
-    padding: .65em 0;
-    border-bottom: 1px solid #efefef;
-
-    &:last-child {
-        border-bottom: 0;
-    }
+    padding: .75em 0;
+    border-bottom: 1px solid var(--border);
 
     h3 {
         margin: 0 0 .15em;
         font-size: $type-size-6;
         line-height: 1.25;
+
+        a {
+            color: var(--text);
+
+            &:hover {
+                color: var(--link);
+            }
+        }
     }
 
     p {
@@ -170,7 +211,39 @@ h1:before, .anchor:before {
     }
 
     .publication-meta {
-        color: mix(#000, $text-color, 20%);
+        color: var(--text-muted);
         font-size: $type-size-7;
+    }
+}
+
+/* ==========================================================================
+   Dark-mode overrides for the handful of chrome elements whose color is
+   derived at compile time from $primary-color / $link-color (Sass mix()
+   can't take a CSS custom property, so these can't flip automatically)
+   ========================================================================== */
+:root[data-theme="dark"] {
+    a {
+        color: var(--link);
+    }
+
+    .greedy-nav a {
+        color: var(--text);
+
+        &:hover {
+            color: var(--accent);
+        }
+    }
+
+    .greedy-nav .visible-links a:before {
+        background: var(--accent);
+    }
+
+    .greedy-nav .hidden-links a:hover {
+        color: var(--accent);
+        background: var(--code-bg);
+    }
+
+    blockquote {
+        border-left-color: var(--accent);
     }
 }

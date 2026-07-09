@@ -34,6 +34,16 @@
                 return;
             }
 
+            // homepage embeds a small teaser (data-limit="5"); the dedicated
+            // /publications/ page omits data-limit and renders everything
+            var limitAttr = publicationList.data('limit');
+            var limit = parseInt(limitAttr, 10);
+            var isCompact = !isNaN(limit) && limit > 0;
+
+            publicationList
+                .toggleClass('publication-list--compact', isCompact)
+                .toggleClass('publication-list--full', !isCompact);
+
             var publications = Object.keys(data['publications']).map(function (id) {
                 var publication = data['publications'][id];
                 publication.author_pub_id = publication.author_pub_id || id;
@@ -47,21 +57,38 @@
                 return ((a.bib && a.bib.title) || '').localeCompare((b.bib && b.bib.title) || '');
             });
 
-            var years = publications.reduce(function (result, publication) {
-                var year = publication.bib && publication.bib.pub_year;
-                if (year && result.indexOf(year) === -1) {
-                    result.push(year);
-                }
-                return result;
-            }, []).sort(function (a, b) {
-                return parseInt(b, 10) - parseInt(a, 10);
-            });
+            if (isCompact) {
+                filter.empty().hide();
+                publications = publications.slice(0, limit);
+            } else {
+                filter.show();
+                var years = publications.reduce(function (result, publication) {
+                    var year = publication.bib && publication.bib.pub_year;
+                    if (year && result.indexOf(year) === -1) {
+                        result.push(year);
+                    }
+                    return result;
+                }, []).sort(function (a, b) {
+                    return parseInt(b, 10) - parseInt(a, 10);
+                });
 
-            filter.empty();
-            $('<button>', { type: 'button', class: 'active', text: 'All', 'data-year': 'all' }).appendTo(filter);
-            years.forEach(function (year) {
-                $('<button>', { type: 'button', text: year, 'data-year': year }).appendTo(filter);
-            });
+                filter.empty();
+                $('<button>', { type: 'button', class: 'active', text: 'All', 'data-year': 'all' }).appendTo(filter);
+                years.forEach(function (year) {
+                    $('<button>', { type: 'button', text: year, 'data-year': year }).appendTo(filter);
+                });
+
+                filter.find('button').on('click', function () {
+                    var selectedYear = $(this).data('year').toString();
+                    filter.find('button').removeClass('active');
+                    $(this).addClass('active');
+
+                    publicationList.find('.publication-item').each(function () {
+                        var itemYear = $(this).data('year').toString();
+                        $(this).toggle(selectedYear === 'all' || itemYear === selectedYear);
+                    });
+                });
+            }
 
             publicationList.empty();
             publications.forEach(function (publication) {
@@ -81,17 +108,6 @@
                 }
                 $('<p>', { class: 'publication-meta', text: [venue, year, 'Citations: ' + citations].filter(Boolean).join(' · ') }).appendTo(item);
                 item.appendTo(publicationList);
-            });
-
-            filter.find('button').on('click', function () {
-                var selectedYear = $(this).data('year').toString();
-                filter.find('button').removeClass('active');
-                $(this).addClass('active');
-
-                publicationList.find('.publication-item').each(function () {
-                    var itemYear = $(this).data('year').toString();
-                    $(this).toggle(selectedYear === 'all' || itemYear === selectedYear);
-                });
             });
         }
     })

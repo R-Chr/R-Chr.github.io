@@ -1,0 +1,56 @@
+/* ==========================================================================
+   THEME TOKENS (light / dark)
+   ========================================================================== */
+
+:root {
+  --bg          : #ffffff;
+  --card-bg     : #ffffff;
+  --text        : #2b2f33;
+  --text-muted  : #6b7280;
+  --border      : #e3e6e8;
+  --code-bg     : #f5f6f7;
+  --accent      : #2f6672;
+  --accent-hover: #244f59;
+  --link        : #2f6672;
+  --link-hover  : #1d3f47;
+
+  color-scheme: light;
+}
+
+/* Respect OS preference when the user hasn't chosen a theme explicitly */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg          : #23272b;
+    --card-bg     : #2c3136;
+    --text        : #e8eaed;
+    --text-muted  : #aab0b6;
+    --border      : #40464c;
+    --code-bg     : #2f343a;
+    --accent      : #7dc0cb;
+    --accent-hover: #97d0da;
+    --link        : #7dc0cb;
+    --link-hover  : #97d0da;
+
+    color-scheme: dark;
+  }
+}
+
+/* Explicit manual override via the theme toggle */
+:root[data-theme="dark"] {
+  --bg          : #23272b;
+  --card-bg     : #2c3136;
+  --text        : #e8eaed;
+  --text-muted  : #aab0b6;
+  --border      : #40464c;
+  --code-bg     : #2f343a;
+  --accent      : #7dc0cb;
+  --accent-hover: #97d0da;
+  --link        : #7dc0cb;
+  --link-hover  : #97d0da;
+
+  color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+}

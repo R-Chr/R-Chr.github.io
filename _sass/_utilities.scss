@@ -183,7 +183,9 @@ body:hover .visually-hidden button {
 
 .social-icons {
   .fa {
-    color: #000;
+    /* generic (non-brand) icons, e.g. the location pin: follow the
+       theme instead of a fixed black that disappears in dark mode */
+    color: var(--text);
   }
 
   .fa-behance,
@@ -211,7 +213,9 @@ body:hover .visually-hidden button {
   .fa-github,
   .fa-github-alt,
   .fa-github-square {
-    color: $github-color;
+    /* GitHub's own mark is monochrome and theme-adaptive; $github-color
+       is near-black and disappears on a dark background */
+    color: var(--text);
   }
 
   .fa-google-plus,
