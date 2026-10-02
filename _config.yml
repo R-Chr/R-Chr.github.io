@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Rasmus Christensen"
   avatar           : "/images/android-chrome-512x512_2.png"
-  bio              : "JSPS Postdoctoral Researcher"
+  bio              : "Computational materials scientist · ML interatomic potentials · battery materials"
   location         : "Tohoku University, Japan"
   employer         :
   pubmed           : 
@@ -136,7 +136,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Tokyo # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

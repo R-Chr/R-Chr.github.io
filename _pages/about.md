@@ -2,6 +2,7 @@
 permalink: /
 title: ""
 excerpt: ""
+description: "Rasmus Christensen is a computational materials scientist at Tohoku University working on machine learning interatomic potentials, atomistic simulation, and glass and battery materials."
 author_profile: true
 redirect_from: 
   - /about/
@@ -25,7 +26,7 @@ Here you can find information about my research projects, publications, and conf
 
 <span class='anchor' id='news'></span>
 # 🔥 News
-- *2026.05*: &nbsp; Presented several upcoming works at 11th International Congress on Ceramics (ICC'11), Sapporo, Japan
+- *2026.09*: &nbsp; Presented several upcoming works at 11th International Congress on Ceramics (ICC'11), Sapporo, Japan
 - *2026.05*: &nbsp; Presented at International Forum of Solid State Batteries 2026 at Tohoku University, Japan
 - *2025.12*: &nbsp; Starting a new position as a JSPS Postdoctoral Researcher at Tohoku University, Japan
 - *2025.10*: &nbsp; Successfully defended my Ph.D. thesis at Aalborg University, Department of Chemistry and Bioscience 🎉🎉
@@ -33,7 +34,7 @@ Here you can find information about my research projects, publications, and conf
 <span class='anchor' id='highlighted-publications'></span>
 # 📝 Highlighted Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Adv. Energy Mater. 2025</div><img src='images/Slide1.png' alt="sym" width="75%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Adv. Energy Mater. 2025</div><img src='images/Slide1.png' alt="Workflow for glass electrolyte discovery: data generation from amorphous structures, machine learning potential parameterization, diffusion screening of 1,303 glass compositions, and random forest predictive models" width="75%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Accelerating the Discovery of High-Conductivity Glass Electrolytes via Machine Learning](https://doi.org/10.1002/aenm.202503813)
@@ -45,15 +46,15 @@ Here you can find information about my research projects, publications, and conf
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">J. Mater. Chem. A 2025</div><img src='images/ToC_JMCA_25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">J. Mater. Chem. A 2025</div><img src='images/ToC_JMCA_25.png' alt="From an ACE potential to a simulated NaFePO4 glass structure to a sodium-ion diffusion pathway" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Structural origin of disorder-induced ion conduction in NaFePO4 cathode materials](https://doi.org/10.1039/D5TA02295A)
+[Structural origin of disorder-induced ion conduction in NaFePO<sub>4</sub> cathode materials](https://doi.org/10.1039/D5TA02295A)
 
 **Rasmus Christensen**, Kristin A. Persson, and Morten M. Smedskjær 
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UqBYL00AAAAJ&sortby=pubdate&citation_for_view=UqBYL00AAAAJ:QIV2ME_5wuYC) <strong><span class='show_paper_citations' data='UqBYL00AAAAJ:QIV2ME_5wuYC'></span></strong>
-- This study utilizes a machine learning potential based on the atomic cluster expansion (ACE) to investigate the enhanced sodium-ion mobility in amorphous $NaFePO_4$. By employing molecular dynamics simulations, we reveal that ion diffusion in these glassy cathodes is highly heterogeneous and governed by specific local structural features.
+- This study utilizes a machine learning potential based on the atomic cluster expansion (ACE) to investigate the enhanced sodium-ion mobility in amorphous NaFePO<sub>4</sub>. By employing molecular dynamics simulations, we reveal that ion diffusion in these glassy cathodes is highly heterogeneous and governed by specific local structural features.
 </div>
 </div>
 
