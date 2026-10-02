@@ -25,6 +25,7 @@ Here you can find information about my research projects, publications, and conf
 
 <span class='anchor' id='news'></span>
 # 🔥 News
+- *2026.05*: &nbsp; Presented several upcoming works at 11th International Congress on Ceramics (ICC'11), Sapporo, Japan
 - *2026.05*: &nbsp; Presented at International Forum of Solid State Batteries 2026 at Tohoku University, Japan
 - *2025.12*: &nbsp; Starting a new position as a JSPS Postdoctoral Researcher at Tohoku University, Japan
 - *2025.10*: &nbsp; Successfully defended my Ph.D. thesis at Aalborg University, Department of Chemistry and Bioscience 🎉🎉
@@ -94,6 +95,7 @@ Most recent publications, pulled automatically from Google Scholar.
 - International Forum of Solid State Batteries 2026, Sendai, Japan (May 2026)
 
 ## Contributed talks (presenter)
+- 11th International Congress on Ceramics (ICC'11), Sapporo, Japan (September 2026)
 
 - The 17th International Conference on the Physics of Non-Crystalline Solids 2025, Tsukuba, Japan (August 2025)
 
